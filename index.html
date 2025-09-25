@@ -17,7 +17,7 @@
       color: white;
       padding: 2rem;
       text-align: center;
-    }
+    }add
     section {
       padding: 2rem;
       max-width: 900px;
@@ -46,6 +46,26 @@
     a {
       color: #4CAF50;
       text-decoration: none;
+    }
+    .btn-support {
+      display: inline-block;
+      background: #4CAF50;
+      color: #fff;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.2s ease, transform 0.05s ease;
+    }
+    .btn-support:hover {
+      background: #43a047;
+    }
+    .btn-support:active {
+      transform: translateY(1px);
+    }
+    .support-note {
+      margin-top: 0.75rem;
+      color: #ddd;
+      font-size: 0.95rem;
     }
   </style>
 </head>
@@ -92,6 +112,17 @@
   <footer>
     <p>© 2025 Bread Brain | Xem mã nguồn trên 
       <a href="https://github.com/your-username/bread-brain">GitHub</a>
+    </p>
+    <p>
+      <a
+        class="btn-support"
+        href="mailto:nnhaigl@gmail.com?subject=Bread%20Brain%20Support"
+        aria-label="Gửi email hỗ trợ tới Bread Brain"
+      >Hỗ trợ</a>
+    </p>
+    <p class="support-note">
+      Gặp vấn đề hoặc cần giúp đỡ? Hãy nhấn nút Hỗ trợ để gửi email tới chúng tôi tại
+      <a href="mailto:nnhaigl@gmail.com">nnhaigl@gmail.com</a>. Đây là cách tốt nhất để nhận hỗ trợ cho mọi vấn đề.
     </p>
   </footer>
 </body>
